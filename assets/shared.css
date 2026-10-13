@@ -96,3 +96,7 @@ footer{background:#0b1828;color:#b9cada;padding:24px!important;border-radius:8px
 .case-page td.number{white-space:normal}.case-page .method-example .chart{margin-inline:0}
 @media(max-width:800px){.case-page .hero-overview{grid-template-columns:1fr;gap:12px}.case-page .hero-overview .summary{margin:0}.case-page .hero .eyebrow,.case-page .num{font-size:15px}.case-page .research-question{margin-top:24px}}
 @media print{.case-page .hero-overview{display:block}.case-page .hero-overview .summary{margin-top:14px}.case-page .hero .eyebrow,.case-page .num{font-size:11pt}.case-page .hero-overview .summary p{font-size:10pt}.case-page .soc-legend{break-inside:avoid}.case-page main>section{max-width:none}}
+
+/* v6: full-width footer and document links */
+footer.site-footer{width:100%;margin:0;border-radius:0;padding:24px 0!important}footer.site-footer>.wrap{padding:0}.evidence-actions{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:20px 0}.evidence-actions a{overflow-wrap:anywhere}.workbook-section .note{margin-top:16px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media print{footer.site-footer{padding:16px 0!important}.evidence-actions{display:block}.evidence-actions .button{display:inline!important;background:none!important;color:#172f44!important;border:0;padding:0}.evidence-actions a{display:block!important;margin:6px 0;text-decoration:underline}}
